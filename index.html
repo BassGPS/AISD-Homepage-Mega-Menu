@@ -1,0 +1,162 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>megamenu.js | Last responsive megamenu you'll ever need</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="" />
+    <meta name="author" content="Mario Loncarek">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
+    <!-- JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script>
+        window.Modernizr || document.write('<script src="js/vendor/modernizr-2.8.3.min.js"><\/script>')
+    </script>
+</head>
+
+<body>
+<nav>
+<div class="menu-container">
+        <div class="menu">
+        <ul>
+          <li class="current-menu-item"><a href="http://www.aisd.net/default.aspx">Home</a></li>
+          <li><a href="http://www.aisd.net/tabs/student.aspx">Students</a>
+            <ul class="sub-menu" style="display: none;">
+              <li><a href="https://arlingtonisd.rankonesport.com">Athletic Forms</a></li>
+              <!--<li><a href="http://www.aisd.net/information/back2school.aspx">Back to School Info</a></li>-->
+              <li><a href="http://www.aisd.net/transportation">Bus Routes</a></li>
+              <li><a href="https://arlington.instructure.com">Canvas</a></li>
+              <li><a href="http://destiny.aisd.net">Destiny (Libraries)</a></li>
+              <li><a href="http://w2.aisd.net/aisd/itd/Resources/Edmodo">Edmodo</a></li>
+              <li><a href="http://www.aisd.net/temp/name/default.aspx">Facility Naming Form</a></li>
+              <li><a href="http://google.aisd.net">Google Apps</a></li>
+              <li><a href="http://www.lynda.com/portal/googleplus?org=student.aisd.net">Lynda.com</a></li>
+              <li><a href="http://www.aisd.net/fns">Lunch Menus</a></li>
+              <li><a href="http://www.aisd.net/webresources">Online Digital Resources</a></li>
+              <li><a href="https://password.aisd.net">Password Reset</a></li>
+              <li><a href="http://www.aisd.net/information/School_Directory.aspx">School Directory</a></li>
+              <!--<li><a href="http://www.aisd.net/aisd/scholarships">Scholarship Info</a></li>
+               <li><a href="https://www.rankonesport.com/Schedules/View_Schedule_All.aspx?D=779c5422-7b09-4845-b2af-7fb1e59f8f64">Sports Event Schedule</a></li> -->
+              <li><a href="http://www.aisd.net/staar">STAAR Testing</a></li>
+              <li><a href="http://www.aisd.net/StudentSsRedirect.aspx">Student Self Serve</a></li>
+              <!--<li><a href="http://www.aisd.net/information/Summer_School.aspx">Summer School</a></li>
+              <li><a href="http://www.aisd.net/departments/Volunteer.aspx">Volunteer</a></li>-->
+              <li><a href="http://www.aisd.net/tabs/student.aspx" style="border: medium none;">More</a></li>
+            </ul>
+          </li>
+          <li><a href="http://www.aisd.net/tabs/parent.aspx">Parents</a>
+            <ul class="sub-menu" style="display: none;">
+               <li><a href="https://arlingtonisd.rankonesport.com">Athletic Forms</a></li>
+               <!--<li><a href="http://www.aisd.net/information/back2school.aspx">Back to School Info</a></li>-->
+              <li><a href="http://www.aisd.net/information/Election_Info.aspx">Election Information</a></li>
+              <li><a href="http://www.aisd.net/employeesearch/browse.asp">Employee Email Search</a></li>
+              <li><a href="http://www.aisd.net/temp/name/default.aspx">Facility Naming Form</a></li>
+              <li><a href="http://www.aisd.net/pdf/Finance/Financials.aspx">Financial Transparency</a></li>
+              <li><a href="http://www.aisd.net/fns">Lunch Menus</a></li>
+              <li><a href="http://www.aisd.net/information/New_to_AISD.aspx">New to AISD?</a></li>
+              <li><a href="http://www.aisd.net/ParentSsRedirect.aspx">Parent Self Serve</a></li>
+              <!-- <li><a href="http://w2.aisd.net/aisd/register">Registering a Student</a></li> -->
+              <!-- <li><a href="#">PSAT Info</a></li> -->
+              <li><a href="http://www.aisd.net/information/School_Directory.aspx">School Directory</a></li>
+              <li><a href="http://www.aisd.net/staar">STAAR Testing</a></li>
+              <li><a href="http://www.aisd.net/information/Summer_School.aspx">Summer School</a></li>
+              <!--<li><a href="https://aisdtxc.scriborder.com/">Transfer Renewal</a></li>-->
+              <li><a href="http://www.aisd.net/departments/Volunteer.aspx">Volunteer</a></li>
+              <li><a href="http://www.aisd.net/tabs/parent.aspx" style="border: medium none;">More</a></li>
+            </ul>
+          </li><li><a href="http://www.aisd.net/tabs/guest.aspx">Guest</a>
+            <ul class="sub-menu" style="display: none;">
+              <li><a href="https://is-teams.aisd.net/enrollment/EntryPointSearchCampusByAddressStartExternalAction.do">Attendance Zone Search Engine</a></li>
+              <li><a href="http://www.aisd.net/information/Election_Info.aspx">Election Information</a></li>
+              <li><a href="http://www.aisd.net/hr">Employment</a></li>
+              <li><a href="http://www.aisd.net/temp/name/default.aspx">Facility Naming Form</a></li>
+              <li><a href="http://www.aisd.net/pdf/Finance/Financials.aspx">Financial Transparency</a></li>
+              <li><a href="http://www.aisd.net/information/New_to_AISD.aspx">New to Arlington</a></li>
+              <li><a href="http://www.aisd.net/information/Required_Postings.aspx">Required Postings</a></li>
+              <li><a href="http://www.aisd.net/information/School_Directory.aspx">School Directory</a></li>
+              <li><a href="http://www.aisd.net/information/School_Hours.aspx">School Hours</a></li>
+              <li><a href="http://www.aisd.net/tabs/guest.aspx" style="border: medium none;">More</a></li>
+            </ul>
+                    </li>
+          <li><a href="http://www.aisd.net/tabs/staff.aspx">Staff</a>
+            <ul class="sub-menu">
+              <li><a href="https://is-teams.aisd.net/common">TEAMS</a></li>
+              <li><a href="http://www.myaisdbenefits.net">Benefits Info</a></li>
+              <li><a href="https://arlington.instructure.com">Canvas</a></li>
+              <li><a href="http://www.aisd.net/cc">Curriculum Central</a></li>
+              <li><a href="http://w2.aisd.net/aisd/itd/Resources/Edmodo">Edmodo</a></li>
+              <li><a href="http://eduphoria.aisd.net">Eduphoria</a></li>
+              <li><a href="http://www.aisd.net/information/Employee_Service_Center.aspx">Employee Service Center</a></li>
+              <!--<li><a href="http://www.aisd.net/temp/name/default.aspx">Facility Naming Form</a></li>-->
+              <li><a href="http://google.aisd.net">Google Apps</a></li>
+              <li><a href="https://www.intouchk12.com/IntouchPortal/IntouchLogin/tabid/162/Default.aspx?CID=e13c1ef8-56f3-4c3d-8f95-f9dbb6d83fee">Intouch/Teacher Messenger</a></li>
+              <li><a href="http://w3.aisd.net/">Intranet</a></li>
+              <li><a href="http://www.lynda.com/portal/googleplus?org=aisd.net">Lynda.com</a></li>
+	          <li><a href="https://aisd.onmytrack.com">myTrack</a></li>
+              <li><a href="http://portal.office.com">Office 365</a></li>
+              <li><a href="https://password.aisd.net">Password Reset</a></li>
+              <li><a href="http://www.polaris.aisd.net/">Polaris</a></li>
+              <li><a href="http://www.aisd.net/SubSsRedirect.aspx">Substitute Service Center</a></li>
+              <li><a href="https://sites.google.com/a/aisd.net/techhelp/home">Tech Help Request</a></li>
+              <li><a href="http://www.aisd.net/tabs/staff.aspx" style="border: medium none;">More</a></li>
+            </ul>
+          </li>
+          <li><a href="http://www.aisd.net/bond">Bond</a></li>
+          <li><a onclick=" newWindow=window.open('http://www.aisd.net/esp_trans_warn.html','winSpanish','resizable=1,toolbar=0,menubar=0,width=565,height=475')" href="http://www.aisd.net/Default.aspx#googtrans(en|es)">Español</a>
+          </li>
+          <li><a href="http://www.aisd.net/hr">Careers</a>
+            <ul class="sub-menu">
+              <li><a href="http://www.myaisdbenefits.net">Benefits</a></li>
+              <li><a href="http://is-teams.aisd.net/submission/EntryPointBrowseJobPostingsAction.do?applicantType=external">Current Openings</a></li>
+              <li><a href="http://www.aisd.net/departments/personnel/applicationinstructions.aspx">Online Application</a></li>
+              <li><a href="http://www.aisd.net/pdf/Finance/SalarySchedule.pdf">Salary Structure</a></li>
+              <li><a href="http://www.aisd.net/hr" style="border: medium none;">More</a></li>
+            </ul>
+          </li>
+          <li><a href="#">District</a>
+            <ul class="sub-menu">
+              <li><a href="http://w2.aisd.net/aisd/Home/AccountabilityInformationforParents/tabid/8584/Default.aspx">Accountability Reports</a></li>
+              <li><a href="http://www.aisd.net/administration/Administrators.aspx">Administrators</a>
+              </li><li><a href="http://www.aisd.net/administration/Board.aspx">Board</a></li>
+              <li><a href="http://www.aisd.net/information/Calendars.aspx">Calendars</a></li>
+              <li><a href="http://www.aisd.net/information/Committees.aspx">Citizen Committees</a></li>
+              <li><a href="http://www.aisd.net/information/Contact_Us.aspx">Contact Us</a></li>
+              <li><a href="http://www.aisd.net/departments/dept.aspx">Departments</a></li>
+              <li><a href="http://www.aisd.net/pdf/Finance/Financials.aspx">Financial Transparency</a></li>
+              <li><a href="http://www.aisd.net/information/Foundations.aspx">Foundations</a></li>
+              <li><a href="http://w2.aisd.net/aisd/mediaroom">Media Room</a></li>
+              <li><a href="http://www.aisd.net/pdf/OrganizationalChart.pdf">Organizational Chart</a></li>
+              <li><a href="http://www.aisd.net/information/FWA.aspx">Report Fraud, Waste and Abuse</a></li>
+              <li><a href="http://www.aisd.net/information/Required_Postings.aspx">Required Postings</a></li>
+              <li><a href="http://www.aisd.net/information/Strategic_Plan.aspx">Strategic Plan</a></li>
+              <li><a href="http://www.aisd.net/administration/superintendent.aspx">Superintendent</a></li>
+              <li><a href="http://www.aisd.net/departments/Volunteer.aspx" style="border: medium none;">Volunteer</a></li>
+            </ul>
+          </li>
+        </ul>
+           
+        </div>
+    </div>
+</nav>
+
+
+    <div class="description">
+        <h3>megamenu.js - Last responsive megamenu you'll ever need</h3>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+    </script>
+    <script src="js/megamenu.js"></script>
+</body>
+
+</html>
