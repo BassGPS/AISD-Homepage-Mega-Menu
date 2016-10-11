@@ -1,4 +1,4 @@
-/* 
+/*
 - Name: megamenu.js - style.css
 - Version: 1.0
 - Latest update: 29.01.2016.
@@ -46,7 +46,7 @@ Screen style's
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 nav {
-	max-width:661px;
+	max-width:667px;
 	margin:auto;
 }
 
@@ -221,9 +221,9 @@ a.nohover:hover {
     padding: 1em 0;
 }
 ul.twoColSpan {
-	border-top: 1px solid #ccc; 
-	left: -18px; 
-	position: relative; 
+	border-top: 1px solid #ccc;
+	left: -18px;
+	position: relative;
 	top: 21px;
 }
 
@@ -278,9 +278,9 @@ Mobile style's
         display: block;
     }
     ul.twoColSpan {
-	border-top: 0; 
-	left: 0; 
-	position: relative; 
+	border-top: 0;
+	left: 0;
+	position: relative;
 	top: -20px;
 }
 
